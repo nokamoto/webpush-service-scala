@@ -3,7 +3,7 @@ package com.github.nokamoto
 import java.util.Base64
 import java.util.concurrent.TimeUnit
 
-import _root_.webpush.protobuf.PushServiceGrpc
+import com.github.nokamoto.webpush.protobuf.PushServiceGrpc
 import com.github.nokamoto.webpush.{KeyPair, WebpushClient}
 import com.squareup.okhttp.OkHttpClient
 import io.grpc.netty.NettyServerBuilder

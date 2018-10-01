@@ -1,7 +1,7 @@
 package com.github.nokamoto
 
-import _root_.webpush.protobuf.Message
 import com.github.nokamoto.webpush.WebpushClient
+import com.github.nokamoto.webpush.protobuf.Message
 import com.squareup.okhttp.{Protocol, Request, Response}
 import io.grpc.{Status, StatusRuntimeException}
 import org.mockito.Mockito._
