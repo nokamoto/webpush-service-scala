@@ -4,7 +4,8 @@ import java.util.Base64
 import java.util.concurrent.TimeUnit
 
 import com.github.nokamoto.webpush.protobuf.PushServiceGrpc
-import com.github.nokamoto.webpush.{KeyPair, WebpushClient}
+import com.github.nokamoto.webpush.KeyPair
+import com.github.nokamoto.webpush.WebpushClient
 import com.squareup.okhttp.OkHttpClient
 import io.grpc.netty.NettyServerBuilder
 

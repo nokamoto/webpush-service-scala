@@ -2,8 +2,11 @@ package com.github.nokamoto
 
 import com.github.nokamoto.webpush.WebpushClient
 import com.github.nokamoto.webpush.protobuf.Message
-import com.squareup.okhttp.{Protocol, Request, Response}
-import io.grpc.{Status, StatusRuntimeException}
+import com.squareup.okhttp.Protocol
+import com.squareup.okhttp.Request
+import com.squareup.okhttp.Response
+import io.grpc.Status
+import io.grpc.StatusRuntimeException
 import org.mockito.Mockito._
 import org.scalatest.AsyncFlatSpec
 import org.scalatest.mockito.MockitoSugar
