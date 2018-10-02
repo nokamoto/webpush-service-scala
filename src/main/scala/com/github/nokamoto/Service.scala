@@ -2,9 +2,11 @@ package com.github.nokamoto
 
 import com.github.nokamoto.webpush.WebpushClient
 import com.google.protobuf.empty.Empty
-import io.grpc.{Status, StatusRuntimeException}
+import io.grpc.Status
+import io.grpc.StatusRuntimeException
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.ExecutionContext
+import scala.concurrent.Future
 import scala.util.control.NonFatal
 import com.github.nokamoto.webpush.protobuf.Message
 import com.github.nokamoto.webpush.protobuf.PushServiceGrpc.PushService
