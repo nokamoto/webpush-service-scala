@@ -4,11 +4,11 @@ name := "webpush-service-scala"
 
 version := IO.readLines(file("VERSION")).head
 
-resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+resolvers += Resolver.sonatypeRepo("releases")
 
 libraryDependencies ++= Seq(
-  "com.github.nokamoto" %% "webpush-scala" % "0.0.0-SNAPSHOT" exclude ("com.github.nokamoto", "webpush-protobuf"),
-  "com.github.nokamoto" %% "webpush-protobuf-grpc" % "0.0.0-SNAPSHOT",
+  "com.github.nokamoto" %% "webpush-scala" % "0.0.1" exclude ("com.github.nokamoto", "webpush-protobuf"),
+  "com.github.nokamoto" %% "webpush-protobuf-grpc" % "0.0.0",
   "org.scalatest" %% "scalatest" % "3.0.5" % Test,
   "org.mockito" % "mockito-core" % "2.22.0" % Test
 )
